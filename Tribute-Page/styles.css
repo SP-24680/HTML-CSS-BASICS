@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  border: 3px solid rgb(32, 32, 112);
+  padding: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin: 0px;
+  background-image: url("https://www.hdwallpapers.in/download/dark_navy_blue_background_hd_navy_blue-1920x1080.jpg");
+}
+#main {
+  padding: 20px;
+  margin: 20px;
+}
+#title {
+  font-size: 50px;
+  color: white;
+}
+#img-div {
+  font-size: 30px;
+  color: yellow;
+  border-radius: 30px;
+  border: 3px solid rgb(32, 32, 112);
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(13, 13, 99);
+}
+#image {
+  max-width: 100%;
+  width: 900px;
+  height: auto;
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  color: white;
+}
+#achievement {
+  font-size: 30px;
+  color: rgb(243, 243, 210);
+  border-radius: 30px;
+  border: 3px solid rgb(32, 32, 112);
+  padding: 40px;
+  margin: 60px 60px;
+  background-color: rgb(13, 13, 99);
+  text-align: left;
+}
+#footer {
+  background-color: rgb(13, 13, 99);
+  border-radius: 30px;
+  border: 3px solid rgb(32, 32, 112);
+  padding: 40px;
+  margin: 60px 60px;
+}
+#tribute-info {
+  font-size: 30px;
+  color: white;
+}
+#tribute-link {
+  color: yellow;
+}
