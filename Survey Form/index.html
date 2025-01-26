@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Survey Form</title>
+    </head>
+  <body>
+    <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This form about your Online Course</p>
+    </header>
+    <form id="survey-form">
+        <label id="name-label">Name</label>
+      <input id="name" type="text" required  placeholder="  Enter your name"><br></label>
+        <label id="email-label">Email </label> 
+        <input id="email" type="email" placeholder="  Enter your email" required><br></label>
+        <label id="number-label">Age(optional)</label><input id="number" placeholder="  Enter your age" type="number" min="6"max="15"><br></label>
+      <label for="dropdown">Select your Education
+      <br>
+    <select id="dropdown">
+        <option>choose</option>
+        <option>BE</option>
+        <option>BTECH</option>
+        <option>others</option>
+        </select><br>
+        </label>
+        <div>Enter your gender
+        <div><input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female </label></div>
+       <div> <input type="radio" id="male" name="gender" value="male" >
+       <label for="male">Male</label></div>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others">Others</label>
+        </div><br>
+        <div>
+          Choose your Interest Course 
+          <div><input type="checkbox" value="html">HTML</div>
+          <div><input type="checkbox" value="css">CSS</div>
+          <div><input type="checkbox" value="javascript">JAVASCRIPT</div>
+         <div> <input type="checkbox" value="java">JAVA</div>
+        <div>  <input type="checkbox" value="react">REACT</div>
+         <div> <input type="checkbox" value="git">GIT</div>
+         <div> <input type="checkbox" value="c++">C++</div>
+         <div> <input type="checkbox" value="node js">NODE JS</div>
+         <div> <input type="checkbox" value="python">PYTHON</div>
+         <div> <input type="checkbox" value="ai">AI</div><br>
+          </div>
+          <label>Enter your Comments Here...<br><br>
+            <textarea id="text" placeholder="Enter your feedback..."></textarea>
+            </label>
+            <center><br>
+            <label for="submit">
+            <input type="submit" value="Submit" id="submit">
+            </center>
+    </form>
+</body>
+</html>
